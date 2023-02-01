@@ -3,6 +3,11 @@
 ----------------------------------*/
 body {
     color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 img {
     width: 300px;
@@ -13,12 +18,35 @@ a {
 a:hover {
     text-decoration: none;
 }
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'DM Serif Text', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* padding has 60px for top and bottom and 0 for left and right */
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 
 /* Profile
 ----------------------------------*/
 header {
-    background: #2F3061;
+    background: #a2bdab;
     color: #F7FFF7;
+}
+
+.main-shadow {
+    text-shadow: 4px 4px 4px #446e4d;
 }
 
 
@@ -27,27 +55,28 @@ header {
 /* Projects
 ----------------------------------*/
 .projects {
-    background: #F7FFF7;
+    background: #8ba38b;
 }
 .projects a {   
-    color: #2F3061; 
+    color: #2f613e; 
 }
 .projects .btn {
     color: #F7FFF7;
-    background: #2F3061;
+    background: #2f6142;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 .projects .btn:hover {
-    background: rgba(47, 48, 97, 80%);
+    background: rgba(55, 68, 59, 0.8);
 }
 
 
 /* Work Experience 
 ----------------------------------*/
 .work-experience {
-    background: #A1C6D7;
+    background: #beccc2;
 }
 
 
